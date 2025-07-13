@@ -4,6 +4,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { localizedMetadata } from "@/lib/metadata";
+import Script from "next/script"; // next/script 임포트 추가
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -48,10 +49,6 @@ export async function generateMetadata() {
       description: meta.description,
       card: "summary_large_image",
     },
-    // ✅ Google AdSense meta tag 추가
-    verification: {
-      google: "ca-pub-8827080947099772",
-    },
   };
 }
 
@@ -67,6 +64,16 @@ export default async function RootLayout({
 
   return (
     <html lang={locale}>
+      {/* <body> 태그 대신 <html> 태그 바로 아래에 <head> 태그를 추가합니다. */}
+      <head>
+        {/* Google AdSense 스크립트 추가 */}
+        <Script
+          async
+          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8827080947099772`}
+          crossOrigin="anonymous"
+          strategy="afterInteractive" // 페이지 상호작용 후 로드
+        />
+      </head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <NextIntlClientProvider locale={locale} messages={messages}>
           {children}
