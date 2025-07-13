@@ -48,6 +48,10 @@ export async function generateMetadata() {
       description: meta.description,
       card: "summary_large_image",
     },
+    // ✅ Google AdSense meta tag 추가
+    verification: {
+      google: "ca-pub-8827080947099772",
+    },
   };
 }
 
