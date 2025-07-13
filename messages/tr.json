@@ -1,0 +1,73 @@
+{
+  "HomePage": {
+    "initial_title": "Kıyamete... 1 Dakika Kaldı",
+    "activate_button": "[ Bağlantı ve Sesleri Etkinleştir ]",
+    "system_warning": "[SİSTEM UYARISI]",
+    "main_title": "Kıyametten 1 Dakika Önce",
+    "description_line1": "Son anda içgüdülerin neyi seçecek?",
+    "description_line2": "Gizemli bir yapay zeka psikolojinizi analiz ediyor.",
+    "start_button": "Son Analizi Başlat"
+  },
+  "TestPage": {
+    "initial_title": "[Acil Durum Mesajı]",
+    "initial_subtitle": "Dünya ile bağlantı 1 dakika içinde kesilecek.",
+    "initial_description": "Yapay zeka insanlığın son verilerini analiz etmeye başlıyor...",
+    "loading_button": "Veriler alınıyor...",
+    "ready_button": "[ Analize Başla ]",
+    "header_emergency": "ACİL DURUM",
+    "header_countdown_prefix": "Kıyamete kalan süre"
+  },
+  "LoadingPage": {
+    "initial_message": "AI çekirdeğine bağlanılıyor...",
+    "messages": [
+      "Beyin dalgalarınız AI ile senkronize ediliyor... (hata oranı: %42)",
+      "Seçeneklerde gizli olan bilinçaltı ‘eziklik’ analiz ediliyor.",
+      "Geçmiş travmaların kıyamete etkisi geri hesaplanıyor...",
+      "AI’nın kişiliğinizi alaya alma ihtimali: %82... Hesaplama tamamlandı.",
+      "İnsanlık veri tabanında size benzeyen ‘ilgi manyağı’ tipler aranıyor...",
+      "Son hayatta kalma profili tamamlandı. Sonuçlar birazdan iletilecek."
+    ],
+    "ad_notice": "AI ruhunuzu analiz ederken lütfen kısa bir reklam izleyin."
+  },
+  "ResultPage": {
+    "loading_text": "Son analiz tamamlandı...",
+    "error_title": "Analiz Başarısız",
+    "error_button_home": "Ana Sayfaya Dön",
+    "percentile_text": "Kıyamet anında, en iyi karar veren yüzde {percentile}'lik kesimdesiniz.",
+    "button_retry": "Yeniden Analiz Et",
+    "button_download_image": "Sonuç Görselini İndir",
+    "site_url": "testgame.site",
+    "alert_card_not_found": "Sonuç kartı bulunamadı.",
+    "alert_image_error": "Görsel oluşturulurken hata oluştu. Lütfen daha sonra tekrar deneyin.",
+    "alert_analysis_error": "Analiz sırasında bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+  },
+  "ResultCard": {
+    "survival_advice_title": "AI'dan Hayatta Kalma Tavsiyesi",
+    "main_traits_title": "Temel Özellikler"
+  },
+  "RarityLevels": {
+    "Common": "Yaygın",
+    "Rare": "Nadir",
+    "Epic": "Epik",
+    "Legendary": "Efsanevi"
+  },
+  "FailPage": {
+    "messages": [
+      "SİSTEM FELAKETİ ALGILADI",
+      "YAKLAŞAN ÇÖKÜŞ BAŞLADI",
+      "KRİTİK HATA: KIYAMET YAKLAŞIYOR",
+      "KÜRESEL YIKIM PROTOKOLÜ ETKİNLEŞTİRİLDİ",
+      "HİÇBİR HAYATTA KALAN BEKLENMİYOR",
+      "SON YAKLAŞIYOR"
+    ],
+    "sub_message": "Beklenmeyen bir değişken nedeniyle analiz kesintiye uğradı.",
+    "ad_notice": "Kıyamet anında bile, insanoğlunun ticari içgüdüleri devam eder.",
+    "reboot_status_message": "Sistem yeniden başlatılıyor... (Güvenlik protokolü kontrolü)",
+    "reboot_complete_message": "Sistem yeniden başlatıldı. Yeniden denemeye hazır.",
+    "retry_analysis_button": "Tekrar Analiz Et",
+    "data_transfer_failed_title": "Veri Aktarımı Başarısız",
+    "click_to_view_details": "Detayları görüntülemek ve yeniden denemek için buraya tıklayın.",
+    "transfer_fail_data_button": "Başarısız Veriyi Aktar",
+    "hold_to_attempt_transfer": "Veri aktarımını denemek için düğmeyi basılı tutun..."
+  }
+}

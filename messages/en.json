@@ -1,0 +1,73 @@
+{
+  "HomePage": {
+    "initial_title": "1 Minute to World's End...",
+    "activate_button": "[ Connect & Enable Sound ]",
+    "system_warning": "[SYSTEM WARNING]",
+    "main_title": "1 Minute Before the End",
+    "description_line1": "In the final moment, what will your instincts choose?",
+    "description_line2": "An unknown AI will analyze your psyche.",
+    "start_button": "Start Final Analysis"
+  },
+  "TestPage": {
+    "initial_title": "[EMERGENCY ALERT]",
+    "initial_subtitle": "Connection to Earth will be terminated in 1 minute.",
+    "initial_description": "AI is initiating final data analysis of humanity...",
+    "loading_button": "Receiving data...",
+    "ready_button": "[ Start Analysis ]",
+    "header_emergency": "EMERGENCY",
+    "header_countdown_prefix": "Until Doom"
+  },
+  "LoadingPage": {
+    "initial_message": "Connecting to AI Core...",
+    "messages": [
+      "Syncing your brainwaves with the AI... (Error Rate: 42%)",
+      "Analyzing the 'pettiness' hidden in your choices.",
+      "Calculating the impact of past trauma on the apocalypse...",
+      "Probability of AI laughing at your personality: 82%... Complete.",
+      "Searching human database for similar 'attention-seeker' types...",
+      "Final survival profiling complete. Transmitting results shortly."
+    ],
+    "ad_notice": "Please watch a brief ad while the AI analyzes your soul."
+  },
+  "ResultPage": {
+    "loading_text": "Final Analysis Complete...",
+    "error_title": "Analysis Failed",
+    "error_button_home": "Return to Home",
+    "percentile_text": "In the moment of doom, you made a choice in the top {percentile}% of survivors.",
+    "button_retry": "Analyze Again",
+    "button_download_image": "Download Result Image",
+    "site_url": "testgame.site",
+    "alert_card_not_found": "Could not find the result card.",
+    "alert_image_error": "An error occurred while creating the image. Please try again later.",
+    "alert_analysis_error": "An error occurred during result analysis. Please try again later."
+  },
+  "ResultCard": {
+    "survival_advice_title": "AI's Survival Advice",
+    "main_traits_title": "Main Traits"
+  },
+  "RarityLevels": {
+    "Common": "Common",
+    "Rare": "Rare",
+    "Epic": "Epic",
+    "Legendary": "Legendary"
+  },
+  "FailPage": {
+    "messages": [
+      "SYSTEM CATASTROPHE DETECTED",
+      "IMMINENT COLLAPSE INITIATED",
+      "CRITICAL FAILURE: APOCALYPSE IMMINENT",
+      "GLOBAL DEVASTATION PROTOCOL ENGAGED",
+      "NO SURVIVORS EXPECTED",
+      "THE END IS NIGH"
+    ],
+    "sub_message": "Analysis interrupted due to an unexpected variable.",
+    "ad_notice": "Even at the moment of doom, humanity's commercial instincts persist.",
+    "reboot_status_message": "System rebooting... (Safety protocol check)",
+    "reboot_complete_message": "System reboot complete. Ready to retry.",
+    "retry_analysis_button": "Analyze Again",
+    "data_transfer_failed_title": "Data Transfer Failed",
+    "click_to_view_details": "Click here to view details and retry.",
+    "transfer_fail_data_button": "Transfer Failed Data",
+    "hold_to_attempt_transfer": "Press and hold the button to attempt data transfer..."
+  }
+}

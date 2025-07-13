@@ -1,0 +1,73 @@
+{
+  "HomePage": {
+    "initial_title": "1 minit sebelum kiamat...",
+    "activate_button": "[ Aktifkan Bunyi & Sambungkan ]",
+    "system_warning": "[AMARAN SISTEM]",
+    "main_title": "1 Minit Sebelum Kiamat",
+    "description_line1": "Di saat terakhir, apakah naluri anda akan pilih?",
+    "description_line2": "AI misteri akan menganalisis psikologi anda.",
+    "start_button": "Mulakan Analisis Akhir"
+  },
+  "TestPage": {
+    "initial_title": "[MESEJ KECEMASAN]",
+    "initial_subtitle": "Sambungan ke Bumi akan terputus dalam 1 minit.",
+    "initial_description": "AI sedang memulakan analisis data terakhir umat manusia...",
+    "loading_button": "Menerima data...",
+    "ready_button": "[ Mulakan Analisis ]",
+    "header_emergency": "KECEMASAN",
+    "header_countdown_prefix": "Hingga kiamat"
+  },
+  "LoadingPage": {
+    "initial_message": "Menyambung ke teras AI...",
+    "messages": [
+      "Menyelaras gelombang otak anda dengan AI... (kadar ralat: 42%)",
+      "Menganalisis ‘kerepekan’ bawah sedar dalam pilihan anda...",
+      "Mengira kesan trauma masa lalu terhadap kiamat...",
+      "Kebarangkalian AI mentertawakan personaliti anda: 82%... selesai.",
+      "Mencari jenis 'perhatian' yang serupa dalam pangkalan data manusia...",
+      "Profil kelangsungan hidup akhir selesai. Menghantar keputusan..."
+    ],
+    "ad_notice": "Tonton iklan sebentar semasa AI menganalisis jiwa anda."
+  },
+  "ResultPage": {
+    "loading_text": "Analisis akhir selesai...",
+    "error_title": "Analisis Gagal",
+    "error_button_home": "Kembali ke Laman Utama",
+    "percentile_text": "Pada saat kiamat, anda tergolong dalam {percentile}% pilihan teratas.",
+    "button_retry": "Analisis Semula",
+    "button_download_image": "Muat Turun Imej Keputusan",
+    "site_url": "testgame.site",
+    "alert_card_not_found": "Kad keputusan tidak ditemui.",
+    "alert_image_error": "Ralat semasa menjana imej. Sila cuba lagi sebentar nanti.",
+    "alert_analysis_error": "Ralat semasa analisis. Sila cuba lagi sebentar nanti."
+  },
+  "ResultCard": {
+    "survival_advice_title": "Nasihat Kelangsungan AI",
+    "main_traits_title": "Ciri Utama"
+  },
+  "RarityLevels": {
+    "Common": "Biasa",
+    "Rare": "Jarang",
+    "Epic": "Epik",
+    "Legendary": "Legenda"
+  },
+  "FailPage": {
+    "messages": [
+      "SISTEM MENGESAN MALAPETAKA",
+      "KERUNTUHAN YANG AKAN BERLAKU TELAH DIMULAKAN",
+      "KEGAGALAN KRITIKAL: KIAMAT AKAN DATANG",
+      "PROTOKOL KEMUSNAHAN GLOBAL DIAKTIFKAN",
+      "TIADA YANG DIJANGKA SELAMAT",
+      "AKHIR SUDAH DEKAT"
+    ],
+    "sub_message": "Analisis terganggu disebabkan pemboleh ubah tidak dijangka.",
+    "ad_notice": "Walaupun di ambang kehancuran, naluri komersial manusia tetap berterusan.",
+    "reboot_status_message": "Sistem sedang but semula... (Pemeriksaan protokol keselamatan)",
+    "reboot_complete_message": "But semula sistem selesai. Sedia untuk cuba lagi.",
+    "retry_analysis_button": "Analisis Semula",
+    "data_transfer_failed_title": "Pemindahan Data Gagal",
+    "click_to_view_details": "Klik di sini untuk melihat butiran dan cuba lagi.",
+    "transfer_fail_data_button": "Pindahkan Data Gagal",
+    "hold_to_attempt_transfer": "Tekan dan tahan butang untuk cuba pemindahan data..."
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "HomePage": {
+    "initial_title": "Còn 1 phút đến ngày tận thế...",
+    "activate_button": "[ Kích hoạt kết nối & âm thanh ]",
+    "system_warning": "[CẢNH BÁO HỆ THỐNG]",
+    "main_title": "1 Phút Trước Ngày Tận Thế",
+    "description_line1": "Trong khoảnh khắc cuối cùng, bản năng của bạn sẽ chọn điều gì?",
+    "description_line2": "AI bí ẩn sẽ phân tích tâm lý của bạn.",
+    "start_button": "Bắt đầu phân tích cuối cùng"
+  },
+  "TestPage": {
+    "initial_title": "[Tin nhắn khẩn cấp]",
+    "initial_subtitle": "Kết nối với Trái Đất sẽ kết thúc sau 1 phút.",
+    "initial_description": "AI đang bắt đầu phân tích dữ liệu cuối cùng của nhân loại...",
+    "loading_button": "Đang nhận dữ liệu...",
+    "ready_button": "[ Bắt đầu phân tích ]",
+    "header_emergency": "KHẨN CẤP",
+    "header_countdown_prefix": "Còn lại đến ngày tận thế"
+  },
+  "LoadingPage": {
+    "initial_message": "Đang kết nối với lõi AI...",
+    "messages": [
+      "Đồng bộ sóng não của bạn với AI... (Tỷ lệ lỗi: 42%)",
+      "Đang phân tích sự ‘đáng thương’ tiềm ẩn trong lựa chọn của bạn.",
+      "Đang tính ngược lại ảnh hưởng của các sang chấn trong quá khứ đến ngày tận thế...",
+      "Xác suất AI chế giễu tính cách bạn: 82%... Đã hoàn tất tính toán.",
+      "Đang tìm kiếm kiểu ‘nghiện sự chú ý’ giống bạn trong cơ sở dữ liệu nhân loại...",
+      "Đã hoàn tất hồ sơ sống sót cuối cùng. Kết quả sẽ được gửi ngay."
+    ],
+    "ad_notice": "Trong khi AI đang phân tích linh hồn bạn, hãy xem một đoạn quảng cáo ngắn."
+  },
+  "ResultPage": {
+    "loading_text": "Đã hoàn tất phân tích cuối cùng...",
+    "error_title": "Phân tích thất bại",
+    "error_button_home": "Quay về trang chủ",
+    "percentile_text": "Bạn thuộc top {percentile}% những người đưa ra lựa chọn sống sót trong thời khắc tận thế.",
+    "button_retry": "Phân tích lại",
+    "button_download_image": "Tải hình ảnh kết quả",
+    "site_url": "testgame.site",
+    "alert_card_not_found": "Không tìm thấy thẻ kết quả.",
+    "alert_image_error": "Lỗi khi tạo hình ảnh. Vui lòng thử lại sau.",
+    "alert_analysis_error": "Lỗi khi phân tích kết quả. Vui lòng thử lại sau."
+  },
+  "ResultCard": {
+    "survival_advice_title": "Lời khuyên sinh tồn từ AI",
+    "main_traits_title": "Đặc điểm chính"
+  },
+  "RarityLevels": {
+    "Common": "Phổ biến",
+    "Rare": "Hiếm",
+    "Epic": "Sử thi",
+    "Legendary": "Huyền thoại"
+  },
+  "FailPage": {
+    "messages": [
+      "HỆ THỐNG ĐÃ PHÁT HIỆN THẢM HỌA",
+      "SỰ SỤP ĐỔ SẮP XẢY RA ĐÃ BẮT ĐẦU",
+      "LỖI TRỌNG YẾU: TẬN THẾ SẮP XẢY RA",
+      "NGHỊ ĐỊNH THẢM HỌA TOÀN CẦU ĐÃ KÍCH HOẠT",
+      "KHÔNG CÓ NGƯỜI SỐNG SÓT ĐƯỢC DỰ ĐOÁN",
+      "NGÀY TẬN THẾ ĐANG ĐẾN GẦN"
+    ],
+    "sub_message": "Phân tích bị gián đoạn do biến số không mong muốn.",
+    "ad_notice": "Ngay cả vào thời khắc tận thế, bản năng thương mại của nhân loại vẫn tồn tại.",
+    "reboot_status_message": "Hệ thống đang khởi động lại... (Kiểm tra giao thức an toàn)",
+    "reboot_complete_message": "Khởi động lại hệ thống hoàn tất. Sẵn sàng thử lại.",
+    "retry_analysis_button": "Phân tích lại",
+    "data_transfer_failed_title": "Chuyển Dữ Liệu Thất Bại",
+    "click_to_view_details": "Nhấp vào đây để xem chi tiết và thử lại.",
+    "transfer_fail_data_button": "Chuyển Dữ Liệu Thất Bại",
+    "hold_to_attempt_transfer": "Nhấn và giữ nút để thử chuyển dữ liệu..."
+  }
+}

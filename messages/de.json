@@ -1,0 +1,73 @@
+{
+  "HomePage": {
+    "initial_title": "Noch 1 Minute bis zum Weltuntergang...",
+    "activate_button": "[ Ton aktivieren & verbinden ]",
+    "system_warning": "[SYSTEMWARNUNG]",
+    "main_title": "1 Minute vor dem Weltuntergang",
+    "description_line1": "Was wirst du im letzten Moment instinktiv tun?",
+    "description_line2": "Eine unbekannte KI analysiert gerade deine Psyche...",
+    "start_button": "Letzte Analyse starten"
+  },
+  "TestPage": {
+    "initial_title": "[Notfallwarnung]",
+    "initial_subtitle": "Die Verbindung zur Erde wird in 1 Minute getrennt.",
+    "initial_description": "KI startet die finale Analyse der Menschheit...",
+    "loading_button": "Datenempfang läuft...",
+    "ready_button": "[ Analyse starten ]",
+    "header_emergency": "NOTFALL",
+    "header_countdown_prefix": "Noch"
+  },
+  "LoadingPage": {
+    "initial_message": "Verbindung zum KI-Kern wird aufgebaut...",
+    "messages": [
+      "Synchronisiere Gehirnwellen mit der KI... (Fehlerrate: 42%)",
+      "Analysiere das verborgene 'Cringe'-Potenzial deiner Entscheidungen...",
+      "Berechne Einfluss deiner Traumata auf dein Endzeitverhalten...",
+      "Wahrscheinlichkeit, dass die KI über dich lacht: 82%. Analyse abgeschlossen.",
+      "Durchsuche Menschheitsdatenbank nach ähnlichen 'Aufmerksamkeits-Junkies'...",
+      "Endgültiges Überlebensprofil erstellt. Sende Ergebnisse..."
+    ],
+    "ad_notice": "Während die KI deine Seele analysiert, genieße bitte eine kurze Werbung."
+  },
+  "ResultPage": {
+    "loading_text": "Letzte Analyse abgeschlossen...",
+    "error_title": "Analyse fehlgeschlagen",
+    "error_button_home": "Zurück zur Startseite",
+    "percentile_text": "Im Moment des Untergangs hast du dich besser entschieden als {percentile}% der Menschheit.",
+    "button_retry": "Erneut analysieren",
+    "button_download_image": "Ergebnisbild herunterladen",
+    "site_url": "testgame.site",
+    "alert_card_not_found": "Ergebniskarte konnte nicht gefunden werden.",
+    "alert_image_error": "Fehler bei der Bilderstellung. Bitte versuche es später erneut.",
+    "alert_analysis_error": "Fehler bei der Analyse. Bitte versuche es später erneut."
+  },
+  "ResultCard": {
+    "survival_advice_title": "Überlebenstipps der KI",
+    "main_traits_title": "Wichtigste Eigenschaften"
+  },
+  "RarityLevels": {
+    "Common": "Gewöhnlich",
+    "Rare": "Selten",
+    "Epic": "Episch",
+    "Legendary": "Legendär"
+  },
+    "FailPage": {
+    "messages": [
+      "SYSTEM HAT KATASTROPHE ERKANNT",
+      "UNMITTELBARER ZUSAMMENBRUCH EINGELEITET",
+      "KRITISCHER FEHLER: APOKALYPSE DROHT",
+      "GLOBALES ZERSTÖRUNGSPROTOKOLL AKTIVIERT",
+      "KEINE ÜBERLEBENDEN ERWARTET",
+      "DAS ENDE IST NAH"
+    ],
+    "sub_message": "Analyse aufgrund einer unerwarteten Variable unterbrochen.",
+    "ad_notice": "Selbst im Moment des Untergangs bleiben die kommerziellen Instinkte der Menschheit bestehen.",
+    "reboot_status_message": "System wird neu gestartet... (Sicherheitsprotokollprüfung)",
+    "reboot_complete_message": "Systemneustart abgeschlossen. Bereit zum erneuten Versuch.",
+    "retry_analysis_button": "Erneut analysieren",
+    "data_transfer_failed_title": "Datenübertragung fehlgeschlagen",
+    "click_to_view_details": "Klicken Sie hier, um Details anzuzeigen und es erneut zu versuchen.",
+    "transfer_fail_data_button": "Fehlgeschlagene Daten übertragen",
+    "hold_to_attempt_transfer": "Halten Sie die Taste gedrückt, um die Datenübertragung zu versuchen..."
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "HomePage": {
+    "initial_title": "地球滅亡まであと1分...",
+    "activate_button": "[ サウンドを有効にして接続 ]",
+    "system_warning": "【システム警告】",
+    "main_title": "地球滅亡1分前テスト",
+    "description_line1": "最後の瞬間、あなたの本能は何を選ぶ？",
+    "description_line2": "謎のAIがあなたの心理を分析中...",
+    "start_button": "最終分析を開始"
+  },
+  "TestPage": {
+    "initial_title": "【緊急速報】",
+    "initial_subtitle": "地球との接続は1分後に終了します。",
+    "initial_description": "AIが人類の最終データ分析を開始します...",
+    "loading_button": "データ受信中...",
+    "ready_button": "[ 分析開始 ]",
+    "header_emergency": "EMERGENCY",
+    "header_countdown_prefix": "滅亡まで"
+  },
+  "LoadingPage": {
+    "initial_message": "AIコアに接続中...",
+    "messages": [
+      "あなたの脳波をAIと同期中...（エラー率：42%）",
+      "選択肢に隠された無意識の『陰キャ力』を分析中...",
+      "過去のトラウマが滅亡時に与える影響を逆算中...",
+      "AIがあなたの性格を笑う確率：82%。計算完了。",
+      "人類データベースから似たような『かまってちゃん』タイプを検索中...",
+      "最終サバイバルプロファイル完了。まもなく結果を送信します。"
+    ],
+    "ad_notice": "AIがあなたの魂を分析している間、しばらく広告をご覧ください。"
+  },
+  "ResultPage": {
+    "loading_text": "最終分析完了...",
+    "error_title": "分析失敗",
+    "error_button_home": "ホームに戻る",
+    "percentile_text": "滅亡の瞬間、あなたは{percentile}%の人類より賢明な選択をしました。",
+    "button_retry": "もう一度分析",
+    "button_download_image": "結果画像をダウンロード",
+    "site_url": "testgame.site",
+    "alert_card_not_found": "結果カードが見つかりません。",
+    "alert_image_error": "画像生成中にエラーが発生しました。しばらくしてから再試行してください。",
+    "alert_analysis_error": "分析中にエラーが発生しました。しばらくしてから再試行してください。"
+  },
+  "ResultCard": {
+    "survival_advice_title": "AIのサバイバルアドバイス",
+    "main_traits_title": "主な性格特性"
+  },
+  "RarityLevels": {
+    "Common": "ノーマル",
+    "Rare": "レア",
+    "Epic": "エピック",
+    "Legendary": "レジェンダリー"
+  },
+    "FailPage": {
+    "messages": [
+      "システムがカタストロフを検出しました",
+      "差し迫った崩壊が始まりました",
+      "致命的なエラー：黙示録が差し迫っています",
+      "地球規模の破壊プロトコルが作動しました",
+      "生存者は期待されません",
+      "終わりが近い"
+    ],
+    "sub_message": "予期せぬ変数により分析が中断されました。",
+    "ad_notice": "滅亡の瞬間でさえも、人類の商業的本能は続きます。",
+    "reboot_status_message": "システム再起動中... (安全プロトコル確認)",
+    "reboot_complete_message": "システム再起動完了。再試行可能です。",
+    "retry_analysis_button": "再分析する",
+    "data_transfer_failed_title": "データ転送失敗",
+    "click_to_view_details": "詳細と再試行のため、ここをクリックしてください。",
+    "transfer_fail_data_button": "失敗データ転送",
+    "hold_to_attempt_transfer": "ボタンを長押ししてデータ転送を試みてください..."
+  }
+}

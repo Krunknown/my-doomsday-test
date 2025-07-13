@@ -1,0 +1,73 @@
+{
+  "HomePage": {
+    "initial_title": "1 minuto alla fine del mondo...",
+    "activate_button": "[ Attiva suono e connessione ]",
+    "system_warning": "[AVVISO DI SISTEMA]",
+    "main_title": "1 Minuto alla Fine del Mondo",
+    "description_line1": "All'ultimo momento, cosa sceglieranno i tuoi istinti?",
+    "description_line2": "Un'IA misteriosa analizzerà la tua psiche.",
+    "start_button": "Inizia analisi finale"
+  },
+  "TestPage": {
+    "initial_title": "[Messaggio di Emergenza]",
+    "initial_subtitle": "La connessione con la Terra terminerà tra 1 minuto.",
+    "initial_description": "L'IA sta iniziando l'analisi finale dei dati dell'umanità...",
+    "loading_button": "Ricezione dati in corso...",
+    "ready_button": "[ Inizia analisi ]",
+    "header_emergency": "EMERGENZA",
+    "header_countdown_prefix": "Alla fine"
+  },
+  "LoadingPage": {
+    "initial_message": "Connessione al nucleo IA in corso...",
+    "messages": [
+      "Sincronizzazione onde cerebrali con l'IA... (margine d'errore: 42%)",
+      "Analisi del 'cringe' inconscio nascosto nelle tue scelte...",
+      "Calcolo dell'impatto dei traumi passati sul comportamento apocalittico...",
+      "Probabilità che l'IA rida della tua personalità: 82%... analisi completata.",
+      "Ricerca di utenti simili nel database dell'umanità (tipo: cercatore di attenzione)...",
+      "Profilo finale di sopravvivenza completo. Invio dei risultati in corso..."
+    ],
+    "ad_notice": "Mentre l'IA analizza la tua anima, guarda un breve annuncio pubblicitario."
+  },
+  "ResultPage": {
+    "loading_text": "Analisi finale completata...",
+    "error_title": "Errore di analisi",
+    "error_button_home": "Torna alla home",
+    "percentile_text": "Nel momento finale, hai scelto meglio del {percentile}% dell'umanità.",
+    "button_retry": "Ripeti analisi",
+    "button_download_image": "Scarica immagine risultato",
+    "site_url": "testgame.site",
+    "alert_card_not_found": "Carta del risultato non trovata.",
+    "alert_image_error": "Errore nella generazione dell'immagine. Riprova più tardi.",
+    "alert_analysis_error": "Errore durante l'analisi. Riprova tra poco."
+  },
+  "ResultCard": {
+    "survival_advice_title": "Consiglio di sopravvivenza dell'IA",
+    "main_traits_title": "Tratti principali"
+  },
+  "RarityLevels": {
+    "Common": "Comune",
+    "Rare": "Raro",
+    "Epic": "Epico",
+    "Legendary": "Leggendario"
+  },
+  "FailPage": {
+    "messages": [
+      "SISTEMA HA RILEVATO CATASTROFE",
+      "COLLASSO IMMINENTE INIZIATO",
+      "ERRORE CRITICO: APOCALISSE IMMINENTE",
+      "PROTOCOLLO DI DEVASTAZIONE GLOBALE ATTIVATO",
+      "NESSUN SOPRAVVISSUTO ATTESO",
+      "LA FINE È VICINA"
+    ],
+    "sub_message": "Analisi interrotta a causa di una variabile inattesa.",
+    "ad_notice": "Anche nel momento del giudizio, gli istinti commerciali dell'umanità persistono.",
+    "reboot_status_message": "Riavvio del sistema... (Controllo protocollo di sicurezza)",
+    "reboot_complete_message": "Riavvio del sistema completato. Pronto per riprovare.",
+    "retry_analysis_button": "Analizza di nuovo",
+    "data_transfer_failed_title": "Trasferimento Dati Fallito",
+    "click_to_view_details": "Clicca qui per visualizzare i dettagli e riprovare.",
+    "transfer_fail_data_button": "Trasferisci Dati Falliti",
+    "hold_to_attempt_transfer": "Tieni premuto il pulsante per tentare il trasferimento dei dati..."
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "HomePage": {
+    "initial_title": "Nog 1 minuut tot het einde van de wereld...",
+    "activate_button": "[ Verbinden en geluid inschakelen ]",
+    "system_warning": "[SYSTEEMWAARSCHUWING]",
+    "main_title": "1 minuut voor het einde van de wereld",
+    "description_line1": "Op het laatste moment, wat kiest jouw instinct?",
+    "description_line2": "Een mysterieuze AI analyseert jouw psyche.",
+    "start_button": "Start de ultieme analyse"
+  },
+  "TestPage": {
+    "initial_title": "[Noodmelding]",
+    "initial_subtitle": "Verbinding met de aarde wordt over 1 minuut verbroken.",
+    "initial_description": "AI start met de analyse van de laatste gegevens van de mensheid...",
+    "loading_button": "Gegevens ontvangen...",
+    "ready_button": "[ Analyse starten ]",
+    "header_emergency": "NOODGEVAL",
+    "header_countdown_prefix": "Tijd tot vernietiging"
+  },
+  "LoadingPage": {
+    "initial_message": "Verbinding maken met AI-kern...",
+    "messages": [
+      "Synchroniseren van jouw hersengolven met AI... (Foutmarge: 42%)",
+      "Analyseren van verborgen 'zielige' neigingen in je keuzes.",
+      "Terugrekenen van invloed van trauma’s op de apocalyps...",
+      "Kans dat AI je persoonlijkheid belachelijk maakt: 82%... Voltooid.",
+      "Zoeken naar soortgelijke 'aandachtszoekers' in menselijke database...",
+      "Overlevingsprofiel voltooid. Resultaten worden verzonden..."
+    ],
+    "ad_notice": "Terwijl AI jouw ziel analyseert, bekijk een korte advertentie."
+  },
+  "ResultPage": {
+    "loading_text": "Eindanalyse voltooid...",
+    "error_title": "Analyse mislukt",
+    "error_button_home": "Terug naar startpagina",
+    "percentile_text": "Op het moment van ondergang maakte jij keuzes in de top {percentile}% van overlevers.",
+    "button_retry": "Opnieuw analyseren",
+    "button_download_image": "Download resultaatafbeelding",
+    "site_url": "testgame.site",
+    "alert_card_not_found": "Resultaatkaart niet gevonden.",
+    "alert_image_error": "Fout bij genereren van afbeelding. Probeer het later opnieuw.",
+    "alert_analysis_error": "Fout bij analyseren van resultaat. Probeer het later opnieuw."
+  },
+  "ResultCard": {
+    "survival_advice_title": "AI’s overlevingstips",
+    "main_traits_title": "Belangrijkste eigenschappen"
+  },
+  "RarityLevels": {
+    "Common": "Veelvoorkomend",
+    "Rare": "Zeldzaam",
+    "Epic": "Episch",
+    "Legendary": "Legendarisch"
+  },
+  "FailPage": {
+    "messages": [
+      "SYSTEEM HEEFT CATASTROFE GEDETECTEERD",
+      "DREIGENDE INSTORTING INGELEID",
+      "KRITISCHE FOUT: APOCALYPS NADERT",
+      "GLOBAAL VERNIETIGINGSPROTOCOL GEACTIVEERD",
+      "GEEN OVERLEVENDEN VERWACHT",
+      "HET EINDE IS NABIJ"
+    ],
+    "sub_message": "Analyse onderbroken vanwege een onverwachte variabele.",
+    "ad_notice": "Zelfs op het moment van de ondergang blijven de commerciële instincten van de mensheid bestaan.",
+    "reboot_status_message": "Systeem wordt opnieuw opgestart... (Controle veiligheidsprotocol)",
+    "reboot_complete_message": "Systeem opnieuw opgestart. Klaar om opnieuw te proberen.",
+    "retry_analysis_button": "Opnieuw analyseren",
+    "data_transfer_failed_title": "Gegevensoverdracht Mislukt",
+    "click_to_view_details": "Klik hier om details te bekijken en opnieuw te proberen.",
+    "transfer_fail_data_button": "Mislukte gegevens overdragen",
+    "hold_to_attempt_transfer": "Houd de knop ingedrukt om de gegevensoverdracht te proberen..."
+  }
+}

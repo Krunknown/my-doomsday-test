@@ -1,0 +1,73 @@
+{
+  "HomePage": {
+    "initial_title": "1 minut kvar till jordens undergång...",
+    "activate_button": "[ Aktivera ljud och anslut ]",
+    "system_warning": "[SYSTEMVARNING]",
+    "main_title": "1 minut före jordens undergång",
+    "description_line1": "Vad kommer dina instinkter att välja i det sista ögonblicket?",
+    "description_line2": "En okänd AI analyserar din psykologi.",
+    "start_button": "Starta slutlig analys"
+  },
+  "TestPage": {
+    "initial_title": "[NÖDMEDDELANDE]",
+    "initial_subtitle": "Anslutningen till jorden avslutas om 1 minut.",
+    "initial_description": "AI påbörjar den slutgiltiga analysen av mänskligheten...",
+    "loading_button": "Tar emot data...",
+    "ready_button": "[ Starta analys ]",
+    "header_emergency": "NÖDLÄGE",
+    "header_countdown_prefix": "Tid kvar"
+  },
+  "LoadingPage": {
+    "initial_message": "Ansluter till AI-kärnan...",
+    "messages": [
+      "Synkroniserar dina hjärnvågor med AI... (felmarginal: 42%)",
+      "Analyserar det undermedvetna 'pinsamma' i dina val...",
+      "Beräknar hur tidigare trauman påverkat undergången...",
+      "Sannolikheten att AI hånar din personlighet: 82%... analys klar.",
+      "Söker efter liknande ’uppmärksamhetssökare’ i mänsklig databas...",
+      "Slutgiltig överlevnadsprofil skapad. Resultat skickas..."
+    ],
+    "ad_notice": "Titta på en annons medan AI analyserar din själ."
+  },
+  "ResultPage": {
+    "loading_text": "Slutlig analys slutförd...",
+    "error_title": "Analysen misslyckades",
+    "error_button_home": "Gå tillbaka till startsidan",
+    "percentile_text": "I undergångens ögonblick gjorde du ett val som placerade dig bland de översta {percentile}%.",
+    "button_retry": "Analysera igen",
+    "button_download_image": "Ladda ner resultatbild",
+    "site_url": "testgame.site",
+    "alert_card_not_found": "Resultatkorten kunde inte hittas.",
+    "alert_image_error": "Ett fel uppstod vid bildgenerering. Försök igen senare.",
+    "alert_analysis_error": "Ett fel uppstod vid analysen. Försök igen senare."
+  },
+  "ResultCard": {
+    "survival_advice_title": "AI:s överlevnadstips",
+    "main_traits_title": "Huvudegenskaper"
+  },
+  "RarityLevels": {
+    "Common": "Vanlig",
+    "Rare": "Sällsynt",
+    "Epic": "Episk",
+    "Legendary": "Legendarisk"
+  },
+  "FailPage": {
+    "messages": [
+      "SYSTEMET UPPTÄCKTE KATASTROF",
+      "FÖRESTÅENDE KOLLAPS INLEDD",
+      "KRITISKT FEL: APOCALYPS NÄRMAR SIG",
+      "GLOBALT FÖRSTÖRELSEPROTOKOLL AKTIVERAT",
+      "INGA ÖVERLEVANDE FÖRVÄNTAS",
+      "SLUTET ÄR NÄRA"
+    ],
+    "sub_message": "Analys avbröts på grund av en oväntad variabel.",
+    "ad_notice": "Även i undergångens stund kvarstår mänsklighetens kommersiella instinkter.",
+    "reboot_status_message": "Systemet startar om... (Säkerhetsprotokollkontroll)",
+    "reboot_complete_message": "Systemet har startat om. Redo att försöka igen.",
+    "retry_analysis_button": "Analysera igen",
+    "data_transfer_failed_title": "Dataöverföring misslyckades",
+    "click_to_view_details": "Klicka här för att se detaljer och försöka igen.",
+    "transfer_fail_data_button": "Överför misslyckade data",
+    "hold_to_attempt_transfer": "Håll knappen intryckt för att försöka dataöverföring..."
+  }
+}

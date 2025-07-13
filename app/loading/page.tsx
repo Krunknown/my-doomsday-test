@@ -5,20 +5,14 @@
 import { useEffect, useState, useRef } from 'react';
 import { useRouter } from 'next/navigation';
 import Script from 'next/script';
+import { useTranslations, useLocale } from 'next-intl'; // [추가]
 
-const loadingMessages = [
-  "당신의 뇌파와 AI 동기화 중... (오류율: 42%)",
-  "선택지에 숨겨진 무의식의 '찌질함'을 분석합니다.",
-  "과거의 트라우마가 멸망에 미친 영향을 역산 중...",
-  "AI가 당신의 성향을 비웃을 확률: 82%... 계산 완료.",
-  "인류 데이터베이스에서 당신과 유사한 '관종' 유형 검색 중...",
-  "최종 생존 프로파일링 완료. 곧 결과를 전송합니다."
-];
+// [삭제] 기존의 하드코딩된 메시지 배열
 
 const ScannerAnimation = () => (
   <div className="relative w-48 h-48">
     <div className="absolute inset-0 border-2 border-green-500/30 rounded-full animate-spin" style={{ animationDuration: '5s' }}></div>
-    <div className="absolute inset-2 border border-green-500/20 rounded-full animate-spin" style={{ animationDuration: '3s', animationDirection: 'reverse' }}></div>
+    <div className="absolute inset-2 border-green-500/20 rounded-full animate-spin" style={{ animationDuration: '3s', animationDirection: 'reverse' }}></div>
     <div className="absolute inset-0 flex items-center justify-center">
       <svg className="w-24 h-24 text-green-500/70" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -31,7 +25,6 @@ const ScannerAnimation = () => (
   </div>
 );
 
-// [운영용] 실제 애드센스 광고 컴포넌트
 const AdsenseAd = () => {
   const adPushed = useRef(false);
 
@@ -55,7 +48,6 @@ const AdsenseAd = () => {
   );
 };
 
-// [개발용] 테스트를 위한 가짜 광고 컴포넌트
 const FakeAdsenseAd = () => {
   return (
     <div className="w-[300px] h-[250px] bg-gray-700 flex items-center justify-center text-center text-white/50 p-4">
@@ -64,10 +56,13 @@ const FakeAdsenseAd = () => {
   );
 };
 
-
 export default function LoadingPage() {
+  const t = useTranslations('LoadingPage'); // [추가]
   const router = useRouter();
-  const [loadingMessage, setLoadingMessage] = useState("AI 코어에 접속하는 중...");
+  const locale = useLocale();
+  // [수정] t.raw를 사용하여 메시지 배열을 가져오고, t()를 사용하여 초기 메시지 설정
+  const loadingMessages = t.raw('messages') as string[];
+  const [loadingMessage, setLoadingMessage] = useState(t('initial_message'));
   const hasRun = useRef(false);
 
   useEffect(() => {
@@ -92,7 +87,7 @@ export default function LoadingPage() {
     const apiRequest = fetch('/api/generate-result', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ history: parsed })
+      body: JSON.stringify({ history: parsed, locale })
     }).then(res => {
       if (!res.ok) return Promise.reject(new Error(`서버 오류 (${res.status})`));
       return res.json();
@@ -106,8 +101,7 @@ export default function LoadingPage() {
         router.push('/result');
       })
       .catch(err => {
-        console.error("Failed to generate result:", err);
-        alert("결과 분석 중 오류가 발생했습니다. 잠시 후 다시 시도해주세요.");
+        alert(t('alert_analysis_error')); // [수정]
         router.push('/'); 
       })
       .finally(() => {
@@ -115,11 +109,10 @@ export default function LoadingPage() {
       });
 
     return () => clearInterval(messageInterval);
-  }, [router]);
+  }, [router, t, loadingMessages]);
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen text-center p-6 bg-black text-white overflow-hidden">
-      {/* [수정] 운영 환경에서만 애드센스 스크립트를 로드 */}
       {process.env.NODE_ENV === 'production' && (
         <Script
           async
@@ -136,9 +129,9 @@ export default function LoadingPage() {
       <p className="text-2xl font-bold mt-8 font-mono animate-pulse">{loadingMessage}</p>
       
       <div className="mt-8 flex flex-col items-center w-full space-y-2">
-        <p className="text-sm text-gray-500">AI가 당신의 영혼을 분석하는 동안 잠시 광고를 시청하세요.</p>
+        {/* [수정] 하드코딩된 텍스트를 t() 함수로 변경 */}
+        <p className="text-sm text-gray-500">{t('ad_notice')}</p>
         <div className="w-[300px] h-[250px] bg-gray-900/50 border border-gray-700 rounded-lg flex items-center justify-center backdrop-blur-sm overflow-hidden">
-          {/* [수정] 개발 환경에서는 가짜 광고를, 운영 환경에서는 진짜 광고를 렌더링 */}
           {process.env.NODE_ENV === 'production' ? <AdsenseAd /> : <FakeAdsenseAd />}
         </div>
       </div>

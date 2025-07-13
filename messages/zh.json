@@ -1,0 +1,73 @@
+{
+  "HomePage": {
+    "initial_title": "距离世界末日还有... 1分钟",
+    "activate_button": "[ 启用声音并连接 ]",
+    "system_warning": "[系统警告]",
+    "main_title": "世界末日倒计时1分钟",
+    "description_line1": "最后时刻，你的本能会选择什么？",
+    "description_line2": "神秘AI正在分析你的心理。",
+    "start_button": "开始最终分析"
+  },
+  "TestPage": {
+    "initial_title": "[紧急灾难警报]",
+    "initial_subtitle": "与地球的连接将在1分钟后断开。",
+    "initial_description": "AI开始分析人类的最终数据...",
+    "loading_button": "正在接收数据...",
+    "ready_button": "[ 开始分析 ]",
+    "header_emergency": "紧急情况",
+    "header_countdown_prefix": "距离末日"
+  },
+  "LoadingPage": {
+    "initial_message": "正在连接AI核心...",
+    "messages": [
+      "正在同步你的脑电波与AI...（错误率：42%）",
+      "正在分析选项中隐藏的“社恐”潜意识...",
+      "正在反推过去创伤对末日行为的影响...",
+      "AI嘲笑你性格的概率：82%...计算完成。",
+      "从人类数据库中查找与你相似的“关注型人格”...",
+      "最终生存画像完成，正在发送结果..."
+    ],
+    "ad_notice": "在AI分析你的灵魂时，请稍等并观看广告。"
+  },
+  "ResultPage": {
+    "loading_text": "最终分析完成...",
+    "error_title": "分析失败",
+    "error_button_home": "返回首页",
+    "percentile_text": "在末日时刻，你做出了比 {percentile}% 的人更优的选择。",
+    "button_retry": "重新分析",
+    "button_download_image": "下载结果图像",
+    "site_url": "testgame.site",
+    "alert_card_not_found": "找不到结果卡片。",
+    "alert_image_error": "生成图像时发生错误，请稍后再试。",
+    "alert_analysis_error": "分析结果时发生错误，请稍后再试。"
+  },
+  "ResultCard": {
+    "survival_advice_title": "AI的生存建议",
+    "main_traits_title": "主要特征"
+  },
+  "RarityLevels": {
+    "Common": "常见",
+    "Rare": "稀有",
+    "Epic": "史诗",
+    "Legendary": "传说"
+  },
+  "FailPage": {
+    "messages": [
+      "系统检测到灾难",
+      "迫在眉睫的崩溃已启动",
+      "严重故障：末日即将来临",
+      "全球毁灭协议已启动",
+      "预计无幸存者",
+      "末日将至"
+    ],
+    "sub_message": "分析因意外变量而中断。",
+    "ad_notice": "即使在末日来临之际，人类的商业本能依然存在。",
+    "reboot_status_message": "系统重启中... (安全协议检查)",
+    "reboot_complete_message": "系统重启完成。准备重试。",
+    "retry_analysis_button": "再次分析",
+    "data_transfer_failed_title": "数据传输失败",
+    "click_to_view_details": "点击此处查看详情并重试。",
+    "transfer_fail_data_button": "传输失败数据",
+    "hold_to_attempt_transfer": "按住按钮尝试数据传输..."
+  }
+}

@@ -1,7 +1,11 @@
-import type { NextConfig } from "next";
+// next.config.ts
+import withNextIntl from 'next-intl/plugin';
+import type { NextConfig } from 'next';
+
+const withIntl = withNextIntl('./i18n.ts'); // ✅ 경로는 문자열로 지정!
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  reactStrictMode: true,
 };
 
-export default nextConfig;
+export default withIntl(nextConfig);

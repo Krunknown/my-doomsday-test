@@ -1,0 +1,73 @@
+{
+  "HomePage": {
+    "initial_title": "1 minuta do końca świata...",
+    "activate_button": "[ Aktywuj połączenie i dźwięk ]",
+    "system_warning": "[OSTRZEŻENIE SYSTEMU]",
+    "main_title": "1 minuta przed zagładą",
+    "description_line1": "W ostatniej chwili, co wybierze Twój instynkt?",
+    "description_line2": "Tajemnicze AI analizuje Twoją psychikę.",
+    "start_button": "Rozpocznij ostateczną analizę"
+  },
+  "TestPage": {
+    "initial_title": "[Pilna wiadomość]",
+    "initial_subtitle": "Połączenie z Ziemią zostanie przerwane za 1 minutę.",
+    "initial_description": "AI rozpoczyna analizę końcowych danych ludzkości...",
+    "loading_button": "Odbieranie danych...",
+    "ready_button": "[ Rozpocznij analizę ]",
+    "header_emergency": "AWARIA",
+    "header_countdown_prefix": "Do końca świata pozostało"
+  },
+  "LoadingPage": {
+    "initial_message": "Łączenie z rdzeniem AI...",
+    "messages": [
+      "Synchronizowanie fal mózgowych z AI... (Błąd: 42%)",
+      "Analizowanie ukrytej „żałosności” w Twoich wyborach.",
+      "Obliczanie wpływu przeszłych traum na apokalipsę...",
+      "Szansa, że AI wyśmieje Twój charakter: 82%... Obliczono.",
+      "Wyszukiwanie podobnych typów „atencji” w bazie danych ludzkości...",
+      "Profilowanie przetrwania zakończone. Wysyłanie wyników..."
+    ],
+    "ad_notice": "Podczas gdy AI analizuje Twoją duszę, obejrzyj krótki film reklamowy."
+  },
+  "ResultPage": {
+    "loading_text": "Końcowa analiza zakończona...",
+    "error_title": "Analiza nie powiodła się",
+    "error_button_home": "Powrót do strony głównej",
+    "percentile_text": "W obliczu zagłady, należysz do {percentile}% najlepiej wybierających ocalałych.",
+    "button_retry": "Spróbuj ponownie",
+    "button_download_image": "Pobierz obraz z wynikiem",
+    "site_url": "testgame.site",
+    "alert_card_not_found": "Nie znaleziono karty z wynikiem.",
+    "alert_image_error": "Błąd podczas generowania obrazu. Spróbuj ponownie później.",
+    "alert_analysis_error": "Błąd podczas analizy wyniku. Spróbuj ponownie później."
+  },
+  "ResultCard": {
+    "survival_advice_title": "Porada przetrwania od AI",
+    "main_traits_title": "Główne cechy"
+  },
+  "RarityLevels": {
+    "Common": "Pospolity",
+    "Rare": "Rzadki",
+    "Epic": "Epicki",
+    "Legendary": "Legendarny"
+  },
+  "FailPage": {
+    "messages": [
+      "SYSTEM WYKRYŁ KATASTROFĘ",
+      "ZBLIŻAJĄCY SIĘ KRACH ZAPOCZĄTKOWANY",
+      "KRYTYCZNA AWARIA: APOCALIPSA NIEUCHRONNA",
+      "PROTOKÓŁ GLOBALNEJ DEWASTACJI AKTYWOWANY",
+      "NIE PRZEWIDUJE SIĘ OCALAŁYCH",
+      "KONIEC JEST BLISKO"
+    ],
+    "sub_message": "Analiza przerwana z powodu nieoczekiwanej zmiennej.",
+    "ad_notice": "Nawet w obliczu zagłady, instynkty handlowe ludzkości trwają.",
+    "reboot_status_message": "Ponowne uruchamianie systemu... (Sprawdzanie protokołu bezpieczeństwa)",
+    "reboot_complete_message": "Ponowne uruchomienie systemu zakończone. Gotowy do ponownej próby.",
+    "retry_analysis_button": "Analizuj ponownie",
+    "data_transfer_failed_title": "Transfer Danych Nieudany",
+    "click_to_view_details": "Kliknij tutaj, aby wyświetlić szczegóły i spróbować ponownie.",
+    "transfer_fail_data_button": "Przenieś nieudane dane",
+    "hold_to_attempt_transfer": "Naciśnij i przytrzymaj przycisk, aby spróbować transferu danych..."
+  }
+}
